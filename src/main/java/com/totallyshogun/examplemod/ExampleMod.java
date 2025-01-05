@@ -21,7 +21,7 @@ import org.slf4j.Logger;
 @Mod(ExampleMod.MOD_ID)
 public class ExampleMod
 {
-    public static final String MOD_ID = "example_mod";
+    public static final String MOD_ID = "examplemod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public ExampleMod()
