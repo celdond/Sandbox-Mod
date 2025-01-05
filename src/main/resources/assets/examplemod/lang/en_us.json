@@ -1,3 +1,5 @@
 {
-  "item.examplemod.ruby": "Ruby"
+  "item.examplemod.ruby": "Ruby",
+
+  "block.examplemod.ruby_block": "Block of Ruby"
 }

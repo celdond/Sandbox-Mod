@@ -1,6 +1,7 @@
 package com.totallyshogun.examplemod;
 
 import com.mojang.logging.LogUtils;
+import com.totallyshogun.examplemod.block.ModBlocks;
 import com.totallyshogun.examplemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,7 @@ public class ExampleMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
