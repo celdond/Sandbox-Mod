@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                 .title(Component.translatable("creativetab.example_tab")).displayItems((itemDisplayParameters, output) -> {
                     output.accept(ModItems.RUBY.get());
                     output.accept(ModBlocks.RUBY_BLOCK.get());
+                    output.accept(ModBlocks.RUBY_ORE.get());
                 }).build());
 
     public static void register(IEventBus eventBus) {
