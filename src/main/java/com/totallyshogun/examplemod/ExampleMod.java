@@ -47,9 +47,7 @@ public class ExampleMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RUBY);
-        }
+
     }
 
     @SubscribeEvent
